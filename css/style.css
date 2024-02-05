@@ -1991,6 +1991,19 @@ img.lazyload:not(.placeholder):not(.loaded) {
 img.lazyload:not(.placeholder).loaded {
   filter: none;
 }
+.mask {
+  background-color: #252525;
+  color: #252525;
+  transition: color 0.5s;
+  -webkit-transition: color 0.5s;
+  -khtml-transition: color 0.5s;
+  -moz-transition: color 0.5s;
+  -o-transition: color 0.5s;
+  -ms-transition: color 0.5s;
+}
+.mask:hover {
+  color: #fff;
+}
 .md >p {
   padding-top: 4px;
 }
