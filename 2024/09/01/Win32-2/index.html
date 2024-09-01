@@ -5,8 +5,8 @@
   <meta name="Volantis" content="5.8.0">
   <meta charset="utf-8">
   <!-- SEO相关 -->
-  <meta name="robots" content="noindex,follow">
-  <link rel="canonical" href="https://linikc.github.io/tags/game/"/>
+  
+  <link rel="canonical" href="https://linikc.github.io/2024/09/01/win32-2/"/>
   <!-- 渲染优化 -->
     <meta http-equiv='x-dns-prefetch-control' content='on' />
       <link rel='dns-prefetch' href='https://unpkg.com'>
@@ -33,18 +33,22 @@
 
   <!-- feed -->
   <!-- 页面元数据 -->
-  <title>标签：Game - Linik's Blog</title>
-  <meta name="keywords" content="null">
+  <title>Win32-2 - Linik's Blog</title>
+  <meta name="keywords" content="C/C++,Win32,null">
   <meta desc name="description" content="A personal blog - Linik - Linik's Blog">
   
-<meta property="og:type" content="website">
-<meta property="og:title" content="Linik&#39;s Blog">
-<meta property="og:url" content="https://linikc.github.io/tags/Game/index.html">
+<meta property="og:type" content="article">
+<meta property="og:title" content="Win32-2">
+<meta property="og:url" content="https://linikc.github.io/2024/09/01/Win32-2/index.html">
 <meta property="og:site_name" content="Linik&#39;s Blog">
-<meta property="og:description" content="A personal blog">
+<meta property="og:description" content="Win32 2Handle Message继续跟着theForger sensei的教程走,我们接着学习消息处理 本节的实例是点击窗口然后MessageBox告诉你这个程序的目录，之后exit当然本节不需要改变其他部分，只要改变WndProc()就可以了1234567891011121314LRESULT CALLBACK WndProc(HWND hwnd,Uint mg,WParam wPar">
 <meta property="og:locale" content="zh_CN">
 <meta property="og:image" content="https://unpkg.com/volantis-static@0.0.1654736714924/media/org.volantis/blog/favicon/android-chrome-192x192.png">
+<meta property="article:published_time" content="2024-09-01T06:04:13.000Z">
+<meta property="article:modified_time" content="2024-09-01T07:50:29.032Z">
 <meta property="article:author" content="Linik">
+<meta property="article:tag" content="C&#x2F;C++">
+<meta property="article:tag" content="Win32">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:image" content="https://unpkg.com/volantis-static@0.0.1654736714924/media/org.volantis/blog/favicon/android-chrome-192x192.png">
   <style>
@@ -2596,7 +2600,7 @@ if (/*@cc_on!@*/false || (!!window.MSInputMethodContext && !!document.documentMo
   
     
       <!-- see: /layout/_partial/scripts/_ctrl/coverCtrl.ejs -->
-      <div id="none" class='cover-wrapper  search' style="display: none;">
+      <div id="none" class='cover-wrapper post search' style="display: none;">
         
   <div class='cover-bg lazyload placeholder' data-bg="https://gcore.jsdelivr.net/gh/MHG-LAB/cron@gh-pages/bing/bing.jpg"></div>
 
@@ -2664,27 +2668,9 @@ if (/*@cc_on!@*/false || (!!window.MSInputMethodContext && !!document.documentMo
       <div id="safearea">
         <div class="body-wrapper">
           
-
 <div id="l_main" class=''>
-  
-    
-      
-  <section class="post-list">
-    
-      
-        
-          
-        
-          
-        
-      
-    
-    
-      
-        
-          <div class='post-wrapper'>
-            <div class="post post-v3 white-box reveal shadow floatable blur"  itemscope itemtype="http://schema.org/Article" >
-  <link itemprop="mainEntityOfPage" href="https://linikc.github.io/2024/07/30/SDL-2D-Game-Platform/">
+  <article itemscope itemtype="http://schema.org/Article" class="article post white-box reveal md shadow floatable blur article-type-post" id="post" itemscope itemprop="blogPost">
+  <link itemprop="mainEntityOfPage" href="https://linikc.github.io/2024/09/01/Win32-2/">
   <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
     <meta itemprop="name" content="Linik's Blog">
   </span>
@@ -2693,139 +2679,218 @@ if (/*@cc_on!@*/false || (!!window.MSInputMethodContext && !!document.documentMo
     <meta itemprop="description" content="A personal blog">
   </span>
   
-  
+
+
   
     <span hidden>
       <meta itemprop="image" content="https://unpkg.com/volantis-static@0.0.1654736714924/media/org.volantis/blog/favicon/android-chrome-192x192.png">
     </span>
   
-  
+  <div class="article-meta" id="top">
     
-    <h2 class="article-title"  itemprop="name headline">
-      <a href="/2024/07/30/SDL-2D-Game-Platform/"  itemprop="url">
-        SDL 2D Game Platform
-      </a>
-    </h2>
-  
-  <div class='md article-desc' itemprop="articleBody">
     
-      
-        SDL2 2D 平台游戏(Platfrom)Platform &amp; Background平台游戏(Platform),就是马里奥，猫里奥一类的平台移动跳跃游戏，难度不是很大可能吧。在学习了SDL2后边写边学的，加之以前GameMaker2的试试水,以及对Unity的摆烂不想学习，所以决定用SDL2手搓出Platform，顺便了解SDL2不然没有动力，毅力去学不多说了，开始
-Librar...
-      
+    
+      <h1 class="title" itemprop="name headline">
+        Win32-2
+      </h1>
+      <div class='new-meta-box'>
+        
+          
+            
+<div class='new-meta-item author' itemprop="author" itemscope itemtype="http://schema.org/Person">
+  <a itemprop="url" class='author' href="/" rel="nofollow">
+    <img itemprop="image" src="https://avatars.githubusercontent.com/u/108966569?s=400&u=c1e5d12bf10e88ee3ae8dd0dc166ef463d53b890&v=4" class="lazyload" data-srcset="https://avatars.githubusercontent.com/u/108966569?s=400&u=c1e5d12bf10e88ee3ae8dd0dc166ef463d53b890&v=4" srcset="data:image/gif;base64,R0lGODlhAQABAIAAAP///////yH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==">
+    <p itemprop="name">Linik</p>
+  </a>
+</div>
+
+          
+        
+          
+            
+  <div class='new-meta-item category'>
+    <i class="fa-solid fa-folder-open fa-fw" aria-hidden="true"></i>
+    <a class="category-link" href="/categories/C-C/">C/C++</a><span class="sep"></span><a class="category-link" href="/categories/C-C/Win32/">Win32</a>
+    
+      <span hidden itemprop="about" itemscope itemtype="http://schema.org/Thing">
+        <a href="/categories/C-C/" itemprop="url"><span itemprop="name">C/C++</span></a>
+      </span>
+    
+      <span hidden itemprop="about" itemscope itemtype="http://schema.org/Thing">
+        <a href="/categories/C-C/Win32/" itemprop="url"><span itemprop="name">Win32</span></a>
+      </span>
     
   </div>
-  
-    <div class='meta-v3' line_style='solid'>
-      <div>
-        
-        <time itemprop="dateCreated datePublished" datetime="2024-07-30T20:58:43+08:00">2024-07-30</time>
-        
-          <span class="dot"></span>
-          <a class="category-link" href="/categories/C-C/">C/C++</a><span class="sep"></span><a class="category-link" href="/categories/C-C/Game/">Game</a>
-          
-            <span hidden itemprop="about" itemscope itemtype="http://schema.org/Thing">
-              <a href="/categories/C-C/" itemprop="url"><span itemprop="name">C/C++</span></a>
-            </span>
-          
-            <span hidden itemprop="about" itemscope itemtype="http://schema.org/Thing">
-              <a href="/categories/C-C/Game/" itemprop="url"><span itemprop="name">Game</span></a>
-            </span>
+
+
           
         
+          
+            <div class="new-meta-item date" itemprop="dateCreated datePublished" datetime="2024-09-01T14:04:13+08:00">
+  <a class='notlink'>
+    <i class="fa-solid fa-calendar-alt fa-fw" aria-hidden="true"></i>
+    <p>发布于：2024年9月1日</p>
+  </a>
+</div>
+
+          
+        
+          
+            
+
+
+
+          
+        
+        <!-- Custom Files topMeta begin-->
+        
+        <!-- Custom Files topMeta end-->
       </div>
+    
+  </div>
+
+
+  <div id="layoutHelper-page-plugins"></div>
+  <div id="post-body" itemprop="articleBody">
+    <h1 id="Win32-2"><a href="#Win32-2" class="headerlink" title="Win32 2"></a>Win32 2</h1><h2 id="Handle-Message"><a href="#Handle-Message" class="headerlink" title="Handle Message"></a>Handle Message</h2><p>继续跟着theForger <span class="mask">sensei</span>的教程走,我们接着学习消息处理</p>
+<p>本节的实例是点击窗口然后MessageBox告诉你这个程序的目录，之后exit<br>当然本节不需要改变其他部分，只要改变WndProc()就可以了<br><figure class="highlight cpp"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br></pre></td><td class="code"><pre><span class="line"><span class="function">LRESULT CALLBACK <span class="title">WndProc</span><span class="params">(HWND hwnd,Uint mg,WParam wParam,LParam lParam)</span></span></span><br><span class="line"><span class="function"></span>&#123;</span><br><span class="line">    <span class="keyword">switch</span>(msg)</span><br><span class="line">    &#123;</span><br><span class="line">        <span class="keyword">case</span>: WM_LBUTTONDOWN:</span><br><span class="line">        &#123;</span><br><span class="line">            <span class="type">char</span>* FileName[MAX_PATH];</span><br><span class="line">            HINSTANCE hInstance = <span class="built_in">GetModuleHandle</span>(<span class="literal">NULL</span>);</span><br><span class="line">            <span class="built_in">GetModuleFileName</span>(hInstance, FileName, MAX_PATH);</span><br><span class="line">            <span class="built_in">MessageBox</span>(hwnd, FileName, <span class="string">L&quot;This Program is:&quot;</span>, MB_OK | MB_ICONINFORMATION);</span><br><span class="line">        &#125;<span class="keyword">break</span>;</span><br><span class="line">        ...</span><br><span class="line">    &#125;<span class="keyword">return</span> <span class="number">0</span>;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure><br><b>MAX_PATH</b> 此项为<b>“最大路径长度限制”</b>为260个字符，但实际上为259个（不包括结束符）所以文件名不要写太长，文件不要藏太深，不然删不掉。<br><b>GetModuleHandle(NULL)</b> 获取当前程序的实例句柄,准确来说是给一个NULL返回一个<b>创建发出调用进程</b>的文件句柄<br><b>GetModuleFileName(hInstance, FileName, MAX_PATH)</b> 获取当前程序的文件路径<br>MessageBox 就不用解释了</p>
+<p><b>Have a try on your computer</b></p>
+<h2 id="Message-Loop"><a href="#Message-Loop" class="headerlink" title="Message Loop"></a>Message Loop</h2><p><b>理解消息循环</b></p>
+<p>所谓消息，“<b>就是一个整数</b>”，是数字，数值。只不过，我们用宏定义将消息的数值用字符表示、替换，由于其为宏定义，在编译之前就会将所有的字符换回数值再进行编译<br><figure class="highlight cpp"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">#<span class="keyword">define</span> WM_SETFOCUS                     0x0007</span></span><br><span class="line"><span class="meta">#<span class="keyword">define</span> WM_KILLFOCUS                    0x0008</span></span><br><span class="line"><span class="meta">#<span class="keyword">define</span> WM_ENABLE                       0x000A</span></span><br><span class="line"><span class="meta">#<span class="keyword">define</span> WM_SETREDRAW                    0x000B</span></span><br><span class="line"><span class="meta">#<span class="keyword">define</span> WM_SETTEXT                      0x000C</span></span><br><span class="line"><span class="meta">#<span class="keyword">define</span> WM_GETTEXT                      0x000D</span></span><br><span class="line"><span class="meta">#<span class="keyword">define</span> WM_GETTEXTLENGTH                0x000E</span></span><br><span class="line"><span class="meta">#<span class="keyword">define</span> WM_PAINT                        0x000F</span></span><br><span class="line"></span><br><span class="line"><span class="meta">#<span class="keyword">define</span> WM_CLOSE                        0x0010</span></span><br><span class="line"></span><br><span class="line"><span class="meta">#<span class="keyword">ifndef</span> _WIN32_WCE</span></span><br><span class="line"><span class="meta">#<span class="keyword">define</span> WM_QUERYENDSESSION              0x0011</span></span><br><span class="line"><span class="meta">#<span class="keyword">define</span> WM_QUERYOPEN                    0x0013</span></span><br><span class="line"><span class="meta">#<span class="keyword">define</span> WM_ENDSESSION                   0x0016</span></span><br><span class="line"><span class="meta">#<span class="keyword">endif</span></span></span><br><span class="line"><span class="meta">#<span class="keyword">define</span> WM_QUIT                         0x0012</span></span><br><span class="line"><span class="meta">#<span class="keyword">define</span> WM_ERASEBKGND                   0x0014</span></span><br><span class="line"><span class="meta">#<span class="keyword">define</span> WM_SYSCOLORCHANGE               0x0015</span></span><br><span class="line"><span class="meta">#<span class="keyword">define</span> WM_SHOWWINDOW                   0x0018</span></span><br><span class="line"><span class="meta">#<span class="keyword">define</span> WM_WININICHANGE                 0x001A</span></span><br></pre></td></tr></table></figure><br>这是WinUser.h文件，其中可以明显看到我们所写的消息名称都将会替换为对应的16位数字<br>每一个操作，事件都会产生对应的消息，被加入消息队列,被翻译，被发送，被处理<br><figure class="highlight cpp"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">while</span>(<span class="built_in">GetMessage</span>(&amp;msg, <span class="literal">NULL</span>, <span class="number">0</span>, <span class="number">0</span>) &gt; <span class="number">0</span>)</span><br><span class="line">&#123;</span><br><span class="line">    <span class="built_in">TranslateMessage</span>(&amp;msg);</span><br><span class="line">    <span class="built_in">DispatchMessage</span>(&amp;msg);</span><br><span class="line">&#125;</span><br><span class="line"><span class="keyword">return</span> msg.wParam;</span><br></pre></td></tr></table></figure><br>这个代码很好解释了消息处理的过程:Get-&gt;Translate-&gt;Dispatch-&gt;Handle<br><img src="/images/Win32/1.png" class="lazyload" data-srcset="/images/Win32/1.png" srcset="data:image/gif;base64,R0lGODlhAQABAIAAAP///////yH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="><br>就是这么一个过程<br>值得注意的是：<b>GetMessage</b> 会返回 <b>正数 0 负数</b></p>
+<ul>
+<li>正数 正常</li>
+<li>0 程序退出</li>
+<li><b>负数 错误</b>！！！！！！</li>
+</ul>
+<p>所以不能用一下方法书写<br><figure class="highlight cpp"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">while</span>(<span class="built_in">GetMessage</span>(&amp;msg, <span class="literal">NULL</span>, <span class="number">0</span>, <span class="number">0</span>))</span><br><span class="line"></span><br><span class="line"><span class="keyword">while</span>(<span class="built_in">GetMessage</span>(&amp;msg,<span class="literal">NULL</span>,<span class="number">0</span>,<span class="number">0</span>,) == TRUE)</span><br><span class="line"></span><br><span class="line"><span class="keyword">while</span>(<span class="built_in">GetMessage</span>(&amp;msg,<span class="literal">NULL</span>,<span class="number">0</span>,<span class="number">0</span>) != <span class="number">0</span>)</span><br></pre></td></tr></table></figure><br>当然，你能保证完全不出任何错误，就可以这么写，但是，这是<b>不推荐的</b></p>
+<p>消息也有两个参数: wParam(16bit), lParam(32bit)<br>当然，也可以都没有e.g.<b>WM_CLOSE</b><br>也可以都有e.g.<b>WM_COMMAND</b> <span class="mask">WM 是 Window Message的缩写</span><br><b>PS:Param 是Parametric adj. 参数的 缩写（Para<code>meric</code>重音在后metric），个人感觉指代Parameter n.参数更合适（Pa<code>rameter</code>重音在前rameter）</b><br>区别：</p>
+<ul>
+<li>wParam: 有两个部分<b>HIWORD(wParam)</b> 包含提示消息 <b>LOWORD(wParam)</b> 包含发送消息的控件或菜单的标识号</li>
+<li>lParam: 含有发送消息控件的hwnd or NULL（消息不是控件发的）<br><br></li>
+<li>HIWORD: 高位的十六位字节</li>
+<li>LOWORD: 低位的十六位字节<br><img src="/images/Win32/3.png" class="lazyload" data-srcset="/images/Win32/3.png" srcset="data:image/gif;base64,R0lGODlhAQABAIAAAP///////yH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="></li>
+</ul>
+<p>即四字节（32bit）的前两位为一WORD(16bit)<br>e.g. 0xCCDDEEFF</p>
+<ul>
+<li>HIWORD: 0xCCDD</li>
+<li>LOWORD: 0xEEFF<br>DWORD 32bit (double WORD)</li>
+</ul>
+
+  </div>
+  
+  
+    
+    <div class='footer'>
+       <!-- 参考资料、相关资料等 -->
       
-        <div>
-          <a class='readmore' href='/2024/07/30/SDL-2D-Game-Platform/' itemprop="url">
-            阅读全文
-          </a>
+        <div class='references'>
+          <section class='header'>
+            
+              <i class="fa-solid fa-quote-left fa-fw" aria-hidden="true"></i>
+            
+            <span>参考资料</span>
+          </section>
+          <section class='body'>
+            <ul>
+              
+                <li>
+                  <a href="http://winprog.org/tutorial/" rel="external nofollow noopener noreferrer" target="_blank">
+                  theForger's Win32 API教程
+                  </a>
+                </li>
+              
+                <li>
+                  <a href="https://docs.microsoft.com/zh-cn/windows/win32/apiindex/windows-api-list" rel="external nofollow noopener noreferrer" target="_blank">
+                  Win32 API
+                  </a>
+                </li>
+              
+            </ul>
+          </section>
         </div>
+      
+       <!-- 相关文章 -->
+      
+      <!-- 版权声明组件 -->
+      
+      <!-- 打赏组件 -->
       
     </div>
   
+  
+    
 
+
+  <div class='article-meta' id="bottom">
+    <div class='new-meta-box'>
+      
+        
+          <div class="new-meta-item date" itemprop="dateModified" datetime="2024-09-01T15:50:29+08:00">
+  <a class='notlink'>
+    <i class="fa-solid fa-edit fa-fw" aria-hidden="true"></i>
+    <p>更新于：2024年9月1日</p>
+  </a>
 </div>
 
-          </div>
         
       
         
-          <div class='post-wrapper'>
-            <div class="post post-v3 white-box reveal shadow floatable blur"  itemscope itemtype="http://schema.org/Article" >
-  <link itemprop="mainEntityOfPage" href="https://linikc.github.io/2024/01/30/Gluttonous-snake/">
-  <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-    <meta itemprop="name" content="Linik's Blog">
-  </span>
-  <span hidden itemprop="post" itemscope itemtype="http://schema.org/Post">
-    <meta itemprop="name" content="Linik's Blog">
-    <meta itemprop="description" content="A personal blog">
-  </span>
+          
+  
+  <div class="new-meta-item meta-tags"><a class="tag" href="/tags/C-C/" rel="nofollow"><i class="fa-solid fa-hashtag fa-fw" aria-hidden="true"></i><p>C/C++</p></a></div> <div class="new-meta-item meta-tags"><a class="tag" href="/tags/Win32/" rel="nofollow"><i class="fa-solid fa-hashtag fa-fw" aria-hidden="true"></i><p>Win32</p></a></div>
+  <span hidden itemprop="keywords">C/C++ Win32</span>
+
+
+        
+      
+        
+      
+    </div>
+    <!-- Custom Files bottomMeta begin -->
+    
+    <!-- Custom Files bottomMeta end -->
+  </div>
+
+
   
   
+
   
+    <div class="prev-next">
+      
+      
+        <a class='next' href='/2024/07/30/SDL-2D-Game-Platform/'>
+          <p class='title'>SDL 2D Game Platform<i class="fa-solid fa-chevron-right" aria-hidden="true"></i></p>
+          <p class='content'>SDL2 2D 平台游戏(Platfrom)Platform &amp; Background平台游戏(Platform),就是马里奥，猫里奥一类的平台移动跳跃游戏，难度不是很大可能吧。在学习了...</p>
+        </a>
+      
+    </div>
+  
+  <!-- Custom Files postEnd begin-->
+  
+  <!-- Custom Files postEnd end-->
+</article>
+
+
+  
+
+
+  <article class="post white-box shadow floatable blur" id="comments">
     <span hidden>
-      <meta itemprop="image" content="https://unpkg.com/volantis-static@0.0.1654736714924/media/org.volantis/blog/favicon/android-chrome-192x192.png">
+      <meta itemprop="discussionUrl" content="/2024/09/01/Win32-2/index.html#comments">
     </span>
-  
-  
+    <p ct><i class='fa-solid fa-comments'></i> 评论</p>
     
-    <h2 class="article-title"  itemprop="name headline">
-      <a href="/2024/01/30/Gluttonous-snake/"  itemprop="url">
-        Gluttonous-snake
-      </a>
-    </h2>
-  
-  <div class='md article-desc' itemprop="articleBody">
-    
-      
-        Gluttonous Snake正所谓贪吃蛇，就是上下左右移动方形的不断变长的蛇在一个方格内吃食物的，每次吃掉一个食物，蛇的长度就增加一格的，蛇的移动速度会加快，当蛇碰到自己的身体或者边界时，游戏结束的一个游戏像废话 
-CMD Versioninclude12345#include &lt;iostream&gt;//not neccessity#include &lt;list&gt;#i...
-      
-    
-  </div>
-  
-    <div class='meta-v3' line_style='solid'>
-      <div>
-        
-        <time itemprop="dateCreated datePublished" datetime="2024-01-30T18:36:08+08:00">2024-01-30</time>
-        
-          <span class="dot"></span>
-          <a class="category-link" href="/categories/C-C/">C/C++</a><span class="sep"></span><a class="category-link" href="/categories/C-C/Game/">Game</a>
-          
-            <span hidden itemprop="about" itemscope itemtype="http://schema.org/Thing">
-              <a href="/categories/C-C/" itemprop="url"><span itemprop="name">C/C++</span></a>
-            </span>
-          
-            <span hidden itemprop="about" itemscope itemtype="http://schema.org/Thing">
-              <a href="/categories/C-C/Game/" itemprop="url"><span itemprop="name">Game</span></a>
-            </span>
-          
-        
-      </div>
-      
-        <div>
-          <a class='readmore' href='/2024/01/30/Gluttonous-snake/' itemprop="url">
-            阅读全文
-          </a>
-        </div>
-      
-    </div>
-  
 
-</div>
+    <div id="layoutHelper-comments"></div>
 
-          </div>
-        
-      
-    
-  </section>
-  
-    
-  
+  </article>
 
 
-    
-  
+
+
+
+
 </div>
 <aside id='l_side' itemscope itemtype="http://schema.org/WPSideBar">
   
@@ -2834,164 +2899,48 @@ CMD Versioninclude12345#include &lt;iostream&gt;//not neccessity#include &lt;lis
     
     
       
-<section class="widget blogger desktop mobile pjax">
-  <div class='content'>
     
-      
-        <a class='avatar flat-box rectangle' href='/about/'>
-          <img no-lazy src='https://avatars.githubusercontent.com/u/108966569?s=400&u=e14c4b390a995027db98ef5c651ab5985c222ace&v=4'/>
-        </a>
-      
-    
-    
-      <div class='text'>
-        
-          <h2>Linik</h2>
-        
-        
-          <p>Infinite Progress</p>
-
-        
-        
-          <p><span id="jinrishici-sentence">Linik's Blog</span></p>
-          <script src="https://sdk.jinrishici.com/v2/browser/jinrishici.js" charset="utf-8"></script>
-        
-      </div>
-    
-    
-      <div class="social-wrapper">
-        
-          
-            <a href="/atom.xml"
-              class="social fa-solid fa-rss flat-btn"
-              target="_blank"
-              rel="external nofollow noopener noreferrer">
-              
-            </a>
-          
-        
-          
-            <a href="mailto:lonesarry@163.com"
-              class="social fa-solid fa-envelope flat-btn"
-              target="_blank"
-              rel="external nofollow noopener noreferrer">
-              
-            </a>
-          
-        
-          
-            <a href="https://github.com/linikc"
-              class="social fab fa-github flat-btn"
-              target="_blank"
-              rel="external nofollow noopener noreferrer">
-              
-            </a>
-          
-        
-          
-            <a href="/"
-              class="social fa-solid fa-headphones-alt flat-btn"
-              target="_blank"
-              rel="external nofollow noopener noreferrer">
-              
-            </a>
-          
-        
-      </div>
-    
-  </div>
-</section>
-
-    
-  
-
-  
-    
-    
-      
-  
-  <section class="widget category desktop mobile pjax">
-    
-  <header>
-    
-      <a href='/blog/categories/'><i class="fa-solid fa-folder-open fa-fw" aria-hidden="true"></i><span class='name'>文章分类</span></a>
-    
-  </header>
-
-
-    <div class='content'>
-      <ul class="entry navigation">
-        
-          <li><a class="flat-box"
-            title="/categories/BF/" href="/categories/BF/"
-            active-action="action-categoriesBF"
-            ><div class='name'>BF</div><div class='badge'>(1)</div></a></li>
-        
-          <li><a class="flat-box"
-            title="/categories/C-C/" href="/categories/C-C/"
-            active-action="action-categoriesC-C"
-            ><div class='name'>C/C++</div><div class='badge'>(7)</div></a></li>
-        
-          <li><a class="flat-box child"
-            title="/categories/C-C/Game/" href="/categories/C-C/Game/"
-            active-action="action-categoriesC-CGame"
-            ><div class='name'>Game</div><div class='badge'>(2)</div></a></li>
-        
-          <li><a class="flat-box child"
-            title="/categories/C-C/OpenCV/" href="/categories/C-C/OpenCV/"
-            active-action="action-categoriesC-COpenCV"
-            ><div class='name'>OpenCV</div><div class='badge'>(1)</div></a></li>
-        
-          <li><a class="flat-box child"
-            title="/categories/C-C/SDL2/" href="/categories/C-C/SDL2/"
-            active-action="action-categoriesC-CSDL2"
-            ><div class='name'>SDL2</div><div class='badge'>(2)</div></a></li>
-        
-          <li><a class="flat-box child"
-            title="/categories/C-C/Win32/" href="/categories/C-C/Win32/"
-            active-action="action-categoriesC-CWin32"
-            ><div class='name'>Win32</div><div class='badge'>(2)</div></a></li>
-        
-      </ul>
-    </div>
-  </section>
-
-
-    
-  
-
-  
-    
-    
-      
-  
-  <section class="widget tagcloud desktop mobile pjax">
-    
-  <header>
-    
-      <a href='/blog/tags/'><i class="fa-solid fa-tags fa-fw" aria-hidden="true"></i><span class='name'>热门标签</span></a>
-    
-  </header>
-
-
-    <div class='content'>
-      <a href="/tags/BF/" style="font-size: 14px; color: #999">BF</a> <a href="/tags/C-C/" style="font-size: 24px; color: #555">C/C++</a> <a href="/tags/Game/" style="font-size: 17.33px; color: #828282">Game</a> <a href="/tags/OpenCV/" style="font-size: 14px; color: #999">OpenCV</a> <a href="/tags/SDL2/" style="font-size: 20.67px; color: #6c6c6c">SDL2</a> <a href="/tags/Win32/" style="font-size: 17.33px; color: #828282">Win32</a>
-    </div>
-  </section>
-
-
-    
-  
-
   
 
 
 <div class="widget-sticky pjax">
 
+  
+  
+
+
+  <section class="widget toc-wrapper desktop mobile " id="toc-div" >
+    
+  <header>
+    
+      <i class="fa-solid fa-list fa-fw" aria-hidden="true"></i><span class='name'>本文目录</span>
+    
+  </header>
+
+
+    <div class='content'>
+        <ol class="toc"><li class="toc-item toc-level-2"><a class="toc-link" href="#Handle-Message"><span class="toc-number">1.</span> <span class="toc-text">Handle Message</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#Message-Loop"><span class="toc-number">2.</span> <span class="toc-text">Message Loop</span></a></li></ol>
+    </div>
+  </section>
+
+  
+
 </div>
 
 
 <!-- 没有 pjax 占位会报错 万恶的 pjax -->
+
+  <div class="pjax">
+    <!-- pjax占位 -->
+  </div>
+
+  <div class="pjax">
+    <!-- pjax占位 -->
+  </div>
+
+  <div class="pjax">
+    <!-- pjax占位 -->
+  </div>
 
   <div class="pjax">
     <!-- pjax占位 -->
@@ -3019,13 +2968,14 @@ CMD Versioninclude12345#include &lt;iostream&gt;//not neccessity#include &lt;lis
 </aside>
 
 
+
           <!--此文件用来存放一些不方便取值的变量-->
 <!--思路大概是将值藏到重加载的区域内-->
 
 <pjax>
 <script>
   window.pdata={}
-  pdata.ispage=false;
+  pdata.ispage=true;
   pdata.commentPath="";
   pdata.commentPlaceholder="";
   pdata.commentConfig={};
@@ -4031,7 +3981,7 @@ window.matchMedia('(prefers-color-scheme: light)').addListener(darkModelListener
 </script>
 
 
-  <script type="application/ld+json">[{"@context":"http://schema.org","@type":"Organization","name":"Linik's Blog","url":"https://linikc.github.io/","logo":{"@type":"ImageObject","url":"https://unpkg.com/volantis-static@0.0.1654736714924/media/org.volantis/blog/favicon/android-chrome-192x192.png","width":192,"height":192}},{"@context":"http://schema.org","@type":"Person","name":"Linik","image":{"@type":"ImageObject","url":"https://unpkg.com/volantis-static@0.0.1654736714924/media/org.volantis/blog/favicon/android-chrome-192x192.png"},"url":"https://linikc.github.io/","sameAs":["https://github.com/volantis-x"],"description":"A personal blog"},{"@context":"http://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"item":{"@id":"https://linikc.github.io/","name":"Linik's Blog"}},{"@type":"ListItem","position":2,"item":{"@id":"https://linikc.github.io/tags/Game/","name":"Game"}}]},{"@context":"http://schema.org","@type":"WebSite","name":"Linik's Blog","url":"https://linikc.github.io/","keywords":null,"description":"A personal blog","author":{"@type":"Person","name":"Linik","image":{"@type":"ImageObject","url":"https://unpkg.com/volantis-static@0.0.1654736714924/media/org.volantis/blog/favicon/android-chrome-192x192.png"},"url":"https://linikc.github.io/","description":"A personal blog"},"publisher":{"@type":"Organization","name":"Linik's Blog","url":"https://linikc.github.io/","logo":{"@type":"ImageObject","url":"https://unpkg.com/volantis-static@0.0.1654736714924/media/org.volantis/blog/favicon/android-chrome-192x192.png","width":192,"height":192}},"potentialAction":{"@type":"SearchAction","name":"Site Search","target":{"@type":"EntryPoint","urlTemplate":"https://linikc.github.io?s={search_term_string}"},"query-input":"required name=search_term_string"}},{"@context":"http://schema.org","@type":"BlogPosting","description":"A personal blog","inLanguage":["zh-CN","en","zh-TW","default"],"mainEntityOfPage":{"@type":"WebPage"},"author":{"@type":"Person","name":"Linik","image":{"@type":"ImageObject","url":"https://unpkg.com/volantis-static@0.0.1654736714924/media/org.volantis/blog/favicon/android-chrome-192x192.png"},"url":"https://linikc.github.io/"},"publisher":{"@type":"Organization","name":"Linik's Blog","logo":{"@type":"ImageObject","url":"https://unpkg.com/volantis-static@0.0.1654736714924/media/org.volantis/blog/favicon/android-chrome-192x192.png","width":192,"height":192}},"wordCount":0,"image":{"@type":"ImageObject","url":"https://unpkg.com/volantis-static@0.0.1654736714924/media/org.volantis/blog/favicon/android-chrome-192x192.png","width":192,"height":192}}]</script>
+  <script type="application/ld+json">[{"@context":"http://schema.org","@type":"Organization","name":"Linik's Blog","url":"https://linikc.github.io/","logo":{"@type":"ImageObject","url":"https://unpkg.com/volantis-static@0.0.1654736714924/media/org.volantis/blog/favicon/android-chrome-192x192.png","width":192,"height":192}},{"@context":"http://schema.org","@type":"Person","name":"Linik","image":{"@type":"ImageObject","url":"https://unpkg.com/volantis-static@0.0.1654736714924/media/org.volantis/blog/favicon/android-chrome-192x192.png"},"url":"https://linikc.github.io/","sameAs":["https://github.com/volantis-x"],"description":"A personal blog"},{"@context":"http://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"item":{"@id":"https://linikc.github.io/","name":"Linik's Blog"}},{"@type":"ListItem","position":2,"item":{"@id":"https://linikc.github.io/categories/C-C/","name":"C/C++"}},{"@type":"ListItem","position":2,"item":{"@id":"https://linikc.github.io/categories/C-C/Win32/","name":"Win32"}},{"@type":"ListItem","position":3,"item":{"@id":"https://linikc.github.io/2024/09/01/Win32-2/","name":"Win32-2"}}]},{"@context":"http://schema.org","@type":"WebSite","name":"Linik's Blog","url":"https://linikc.github.io/","keywords":null,"description":"A personal blog","author":{"@type":"Person","name":"Linik","image":{"@type":"ImageObject","url":"https://unpkg.com/volantis-static@0.0.1654736714924/media/org.volantis/blog/favicon/android-chrome-192x192.png"},"url":"https://linikc.github.io/","description":"A personal blog"},"publisher":{"@type":"Organization","name":"Linik's Blog","url":"https://linikc.github.io/","logo":{"@type":"ImageObject","url":"https://unpkg.com/volantis-static@0.0.1654736714924/media/org.volantis/blog/favicon/android-chrome-192x192.png","width":192,"height":192}},"potentialAction":{"@type":"SearchAction","name":"Site Search","target":{"@type":"EntryPoint","urlTemplate":"https://linikc.github.io?s={search_term_string}"},"query-input":"required name=search_term_string"}},{"@context":"http://schema.org","@type":"BlogPosting","headline":"Win32-2","description":"A personal blog","inLanguage":["zh-CN","en","zh-TW","default"],"mainEntityOfPage":{"@type":"WebPage","@id":"https://linikc.github.io/2024/09/01/Win32-2/"},"author":{"@type":"Person","name":"Linik","image":{"@type":"ImageObject","url":"https://unpkg.com/volantis-static@0.0.1654736714924/media/org.volantis/blog/favicon/android-chrome-192x192.png"},"url":"https://linikc.github.io/"},"publisher":{"@type":"Organization","name":"Linik's Blog","logo":{"@type":"ImageObject","url":"https://unpkg.com/volantis-static@0.0.1654736714924/media/org.volantis/blog/favicon/android-chrome-192x192.png","width":192,"height":192}},"url":"https://linikc.github.io/2024/09/01/Win32-2/","wordCount":0,"datePublished":"2024-09-01T06:04:13.000Z","dateModified":"2024-09-01T07:50:29.032Z","articleSection":"C/C++","keywords":"C/C++,Win32","image":{"@type":"ImageObject","url":"https://unpkg.com/volantis-static@0.0.1654736714924/media/org.volantis/blog/favicon/android-chrome-192x192.png","width":192,"height":192}}]</script>
 
 
 
